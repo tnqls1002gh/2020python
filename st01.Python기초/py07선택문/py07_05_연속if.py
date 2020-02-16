@@ -7,3 +7,15 @@
 # 70점 이상이면 C,   
 # 60점 이상이면 D,    
 # 나머지는 F
+
+grade = int(input("점수를입력하세요"))
+if 90 <= grade and grade <= 100:
+    print("A")
+elif 80 <= grade and grade <90:
+    print("B")
+elif 70 <= grade and grade <80:
+    print("C")
+elif 60 <= grade and grade <70:
+    print("D")
+else:
+    print("F")
