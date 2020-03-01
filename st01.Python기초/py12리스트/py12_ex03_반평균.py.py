@@ -7,3 +7,14 @@
 # 6. list에서 마지막 학생 삭제.
 # 7. list에서 0번 값을 출력하시오.
 # 8. 평균을 구하고 출력.
+A = []
+count = 0
+a = int(input("학생수입력:"))
+while a > count: 
+    b = int(input("성적입력:"))
+    A.append(b)
+    count = count + 1 
+print (A)    
+
+print (sum (A))
+print (sum (A)/3)
