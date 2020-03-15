@@ -9,3 +9,14 @@
 
 # 코딩 하기 
 
+import Circle
+
+def main():
+    c1 = Circle.Circle(10)
+    print("원 반지름=", c1.radius())
+    print("원 넓이=", c1.calcArea())
+    print("원 둘레", c1.calcCircum())
+    
+
+for Circle in c1:
+    print("원 반지름""원 넓이""원 둘레")

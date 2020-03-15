@@ -16,3 +16,35 @@
 
 
 # 코딩 하기 
+
+class Fourcal(): # 클래스 정의부
+    def __init__(self, first):
+        self.__first = first # 비공개 변수 선언.
+
+        # self.__first 변수의 getter 메서드 만들기
+        # getter 메서드 이름을 만들 때 get + 변수명의 첫글자는 대문자로 나머지는 소문자로
+        # getter 메서드의 목적: 비공개 변수값 리턴
+
+    def getFirst(self):
+        return self.__first
+
+        # self.__first 변수의 setter 메서드 만들기
+        # setter 메서드의 목적: 비공개 변수값을 바꾼다.
+        # setter 메서드 이름을 만들 때 set + 변수명의 첫글자는 대문자로 나머지는 소문자로
+    def setFirst(self, value):
+        self.__first = value
+
+def main():
+    #인스턴스 만들기
+    c1 = Fourcal(4)
+
+    # 비공개 변수 self.__first 값을 출력
+    val = c1.getFirst()
+    print (val)
+    # 비공개 변수 self.__first 값을 8로 바꾸시오
+    val = c1.setfirst(8) # 변경된다.
+
+    print(val)
+
+    main()
+    

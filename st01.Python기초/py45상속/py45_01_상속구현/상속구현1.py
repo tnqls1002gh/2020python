@@ -9,5 +9,29 @@
 #    if __name__ == "__main__":
 #    main()
 
-
 # 코딩 하기 
+
+# Parent Class 만들기
+
+class Parent():
+    def __init__(self):
+        self.__value = "부모 변수"
+    def test(self):
+        print("parent 클래스의 test()메서드입니다.")   
+
+    def getValue(self):
+        return self.__value 
+
+# Child Class 만들기
+
+class Child(Parent):
+    def __init(self):
+         pass
+
+child = Child()
+child.test()
+val = child.getValue()
+print (val)
+
+# 자식 클래스의 매개변수는 부모 클래스를 사용하면된다다다다ㅏ다다다다다다
+# 부모의 변수를 자식 변수가 자신의것처럼 사용할수있다다다다다ㅏㄷ

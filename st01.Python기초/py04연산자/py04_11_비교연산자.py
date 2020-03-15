@@ -4,8 +4,8 @@ print(flag)
 flag = (2>3)
 print(flag)
 
-print(true)
-print(false)
+print(True)
+print(False)
 
 print(10 == 100)
 print(10 != 100)

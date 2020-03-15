@@ -5,7 +5,7 @@ h=input ('세로:')
 try:
     w=float(w)
     h=float(h)
-wh
+
 except expression as identifier:
     pass
 

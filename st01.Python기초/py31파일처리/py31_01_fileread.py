@@ -2,7 +2,7 @@
 
 #########################
 # readline() 파일에서 한 줄씩 읽기
-print("readlin()" 파일에서 한 줄씩 읽기)
+print("readlin()" #파일에서 한 줄씩 읽기)
 pfr = open("./file/phones.txt", "r")
 
 s=pfr.readline()

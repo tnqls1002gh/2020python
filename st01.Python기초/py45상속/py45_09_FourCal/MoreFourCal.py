@@ -16,3 +16,8 @@
 
 
 # 코딩 하기 
+
+import FourCal
+
+class MoreForcal():
+    def __ini__(self)

@@ -16,3 +16,14 @@
 
 
 # 코딩 하기 
+class Counter:
+    def __init__(self):
+        self.__count = 0
+    def reset(self):
+        self.__count = 0
+    def increament(self):
+        self.__count +=1
+    def get(self):
+        return self.__count
+    def setCount(self):\
+    
